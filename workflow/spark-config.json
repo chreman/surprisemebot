@@ -2,10 +2,10 @@
   {
     "classification": "spark-defaults",
     "properties": {
+      "spark.executor.memory":"3g",
       "spark.driver.memory": "16G",
-      "spark.driver.maxResultSize": "8G",
+      "spark.driver.maxResultSize": "12G",
       "spark.dynamicAllocation.enabled":"true",
-      "spark.executor.memory":"24g",
       "spark.serializer":"org.apache.spark.serializer.KryoSerializer",
       "spark.kryoserializer.buffer.max":"1g",
       "spark.python.worker.memory":"1g",
